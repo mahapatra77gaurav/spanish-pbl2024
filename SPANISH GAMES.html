@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos Tradicionales Españoles</title>
+    <style>
+      body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.header {
+  background-color: #2d30f0;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+  animation: fade-in 1s ease-in-out;
+}
+
+.header:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header:hover h1 {
+  transform: translateY(-10px);
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.header a:hover {
+  transform: translateY(-5px);
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  padding: 20px;
+  background-color: #000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+}
+
+.game-card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.game-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+.game-image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #2d30f0;
+}
+
+.game-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2d30f0;
+}
+
+.game-description {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: #2d30f0;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  transform: translateY(-2px);
+}
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Juegos Tradicionales Españoles</h1>
+    </div>
+    <div class="main">
+      <div class="game-card">
+        <img src="images/pelota vasca.jpeg" class="game-image" alt="Pelota Vasca" />
+        <h2 class="game-title">Pelota Vasca</h2>
+        <p class="game-description">
+          La pelota vasca es un juego tradicional del País Vasco que se juega con una pelota y una pared.
+        </p>
+      </div>
+      <div class="game-card">
+        <img src="Images/palo sebo.jpeg" class="game-image" alt="Game 1">
+        <h2 class="game-title">Palo Sebo</h2>
+        <p class="game-description">
+          En este juego, se coloca un poste untado con grasa (generalmente un palo o una vara) de manera vertical, y el objetivo es treparlo para alcanzar el premio en la parte superior. La dificultad radica en que el poste está resbaladizo debido a la grasa, lo que lo hace difícil de escalar.
+        </p>
+    </div>
+    <div class="game-card">
+        <img src="Images/La Rayuela.jpeg" class="game-image" alt="Game 2">
+        <h2 class="game-title">La Rayuela</h2>
+        <p class="game-description">
+          Este es un juego popular jugado en todo el mundo, incluyendo España. Los jugadores dibujan un cuadrado en el suelo y se turnan para saltar en él, tratando de llegar al final sin pisar las líneas o perder el equilibrio.        </p>
+    </div>
+    <div class="game-card">
+        <img src="Images/La Gallinita Ciega.jpeg" class="game-image" alt="Game 3">
+        <h2 class="game-title">La Gallinita Ciega</h2>
+        <p class="game-description">
+          En este juego, un jugador es vendado (la "gallinita ciega") y se le da vueltas. Los otros jugadores se mueven alrededor del jugador vendado, quien intenta atrapar a uno de ellos. El jugador atrapado entonces se convierte en la "gallinita ciega".        </p>
+    </div>
+    <div class="game-card">
+      <img src="Images/Chapas.jpeg" class="game-image" alt="Game 3">
+      <h2 class="game-title">Chapas</h2>
+      <p class="game-description">
+        Este juego implica lanzar chapas para derribar otras chapas colocadas en un área designada. Los jugadores se turnan para lanzar sus chapas, tratando de golpear y derribar las chapas del oponente.      </p>
+    </div>
+    <div class="game-card">
+      <img src="Images/El Escondite.jpeg" class="game-image" alt="Game 3">
+      <h2 class="game-title">El Escondite</h2>
+      <p class="game-description">
+        Este juego implica lanzar chapas para derribar otras chapas colocadas en un área designada. Los jugadores se turnan para lanzar sus chapas, tratando de golpear y derribar las chapas del oponente.      </p>
+    </div>
+    <div class="game-card">
+      <img src="Images/Zarzas.jpeg" class="game-image" alt="Game 3">
+      <h2 class="game-title">Zarzas</h2>
+      <p class="game-description">
+        En este juego, los participantes se sientan en círculo y se turnan para adivinar quién está "marcado". La persona que está "marcada" debe tocar a otro jugador mientras grita "zarzas". Los otros jugadores intentan evitar ser tocados, y si son tocados, se convierten en "marcados" en la siguiente ronda. </p>
+    </div>    
+    <div class="game-card">
+      <img src="Images/El Juego de la Silla.jpeg" class="game-image" alt="Game 3">
+      <h2 class="game-title">El Juego de la Silla</h2>
+      <p class="game-description">
+        Se colocan sillas en círculo, con una menos que el número de jugadores. Mientras suena la música, los jugadores caminan alrededor de las sillas. Cuando la música se detiene, todos deben encontrar rápidamente un asiento. El jugador que queda de pie es eliminado, y se quita una silla. El juego continúa hasta que solo queda un jugador. </p>
+    </div>
